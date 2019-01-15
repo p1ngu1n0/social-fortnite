@@ -4,6 +4,9 @@ Es una especie de mod para [SocialFish](https://github.com/UndeadSec/SocialFish)
 
 Para instalarlo: python3 setup.py
 
+Una vez en la carpeta de SocialFish: nano core/menu.py
+y añade "Fortnite" (sin las comillas) a Social Media y estaria listo.
+
 # Social
 
 seguirme en:
