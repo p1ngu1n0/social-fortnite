@@ -2,7 +2,7 @@ import os
 import subprocess
 
 pwd = subprocess.getoutput("pwd")
-b = subprocess.getoutput("find /* -type d -name SocialFish ")
+b = subprocess.getoutput("find * -type d -name SocialFish ")
 
 ds = "/base/WebPages/Fortnite"
 lugar = str(pwd+"/"+b+ds)
