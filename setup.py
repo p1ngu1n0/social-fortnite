@@ -3,7 +3,7 @@ import subprocess
 
 b = subprocess.getoutput("find $HOME -type d -name SocialFish ")
 
-ds = "/base/WebPages/fortnite"
+ds = "/base/WebPages/Fortnite"
 lugar = str(b+ds)
 print("Instalando en "+lugar)
 move = os.system("cp -r fortnite "+lugar)
