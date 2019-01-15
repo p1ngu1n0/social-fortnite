@@ -2,6 +2,8 @@
 
 Es una especie de mod para [SocialFish](https://github.com/UndeadSec/SocialFish) el cual añade una nueva interfaz para capturar credenciales de fortnite.
 
+# Install
+
 Para instalarlo: python3 setup.py
 
 Una vez en la carpeta de SocialFish: nano core/menu.py
