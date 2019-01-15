@@ -3,7 +3,7 @@ import subprocess
 
 b = subprocess.getoutput("find $HOME -type d -name SocialFish ")
 
-ds = "/base/WebPages/Fortnite"
+ds = "/base/WebPages/fortnite"
 lugar = str(b+ds)
 print("Instalando en "+lugar)
 move = os.system("cp -r fortnite "+lugar)
@@ -13,4 +13,4 @@ if move == 0:
         print("Ejecuta: python3 "+b+"/SocialFish.py")
 
 else:
-        print("Error... SocialFish no esta instalado o algo fallo en algun lado.")
+        print("Error... SocialFish no esta instalado")
